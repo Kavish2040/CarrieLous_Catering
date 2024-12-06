@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Carrie Lou's Catering</title>
+
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet">
+
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+  <!-- nice select -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha256-mLBIhmBvigTFWPSCtvdu6a76T+3Xyt+K571hupeFLg4=" crossorigin="anonymous" />
+  <!-- slidck slider -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha256-UK1EiopXIL+KVhfbFa8xrmAWPeBjMVdvYMYkTAEv/HI=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css.map" integrity="undefined" crossorigin="anonymous" />
+
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/logo.png" alt="Carrie Lou's Catering Logo" style="height: 70px;width: 190px";>
+          </a>
+          <div class="" id="">
+            <div class="User_option">
+              <a href="">
+                <i class="fa fa-user" aria-hidden="true"></i>
+                <span>Login</span>
+              </a>
+             
+            </div>
+            <div class="custom_menu-btn">
+              <button onclick="openNav()">
+                <img src="images/menu.png" alt="">
+              </button>
+            </div>
+            <div id="myNav" class="overlay">
+              <div class="overlay-content">
+                <a href="index.html">Home</a>
+                <a href="">About</a>
+                <a href="">Blog</a>
+                <a href="">Testimonial</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+
+    <!-- slider section -->
+    <section class="slider_section ">
+      <div class="container ">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <div class="detail-box">
+              <div class="modern-hero-text">
+                <h2>
+                  
+                  Exceptional Catering Services For <span class="highlight">Unforgettable Events</span></h2>
+
+              </div>
+            </div>
+            <div class="find_container">
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <form>
+                      <!-- First row for inputs -->
+                      <div class="form-row">
+                        <div class="form-group col-lg-4">
+                          <input type="text" class="form-control" id="inputHotel" placeholder="Event type">
+                        </div>
+                        <div class="form-group col-lg-3">
+                          <input type="date" class="form-control" id="eventDate" placeholder="Event Date">
+                        </div>
+                        <div class="form-group col-lg-3">
+                          <input type="text" class="form-control" id="inputLocation" placeholder="Location">
+                          <span class="location_icon">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                          </span>
+                        </div>
+                      </div>
+            
+                      <!-- Second row for the button -->
+                      <div class="form-row justify-content-center mt-3">
+                        <div class="form-group col-lg-2 text-center">
+                          <div class="btn-box">
+                            <button type="button" class="btn start-query-btn" onclick="window.location.href='tel:(682)310-6955'">
+                          Submit
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="slider_container">
+        <div class="item">
+          <div class="img-box">
+            <img src="images/slider-img1.png" alt="" />
+          </div>
+        </div>
+        <div class="item">
+          <div class="img-box">
+            <img src="images/slider-img2.png" alt="" />
+          </div>
+        </div>
+        <div class="item">
+          <div class="img-box">
+            <img src="images/slider-img3.png" alt="" />
+          </div>
+        </div>
+        <div class="item">
+          <div class="img-box">
+            <img src="images/slider-img4.png" alt="" />
+          </div>
+        </div>
+        <div class="item">
+          <div class="img-box">
+            <img src="images/slider-img1.png" alt="" />
+          </div>
+        </div>
+        <div class="item">
+          <div class="img-box">
+            <img src="images/slider-img2.png" alt="" />
+          </div>
+        </div>
+        <div class="item">
+          <div class="img-box">
+            <img src="images/slider-img3.png" alt="" />
+          </div>
+        </div>
+        <div class="item">
+          <div class="img-box">
+            <img src="images/slider-img4.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end slider section -->
+  </div>
+
+
+  <!-- recipe section -->
+
+  <section class="recipe_section layout_padding-top">
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2>Culinary Gallery</h2>
+        <p class="gallery-subtitle">Discover our exceptional catering creations</p>
+      </div>
+      <div class="food-gallery">
+        <!-- Featured Row -->
+        <div class="gallery-row featured">
+          <div class="gallery-item wide">
+            <img src="https://images.unsplash.com/photo-1544025162-d76694265947" alt="BBQ Spread" class="gallery-img">
+            <div class="gallery-overlay">
+              <h4>Texas BBQ Feast</h4>
+              <p>Full-service BBQ station with all the fixings</p>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="images/pic13.jpg" alt="Mac and Cheese Bar" class="gallery-img">
+            <div class="gallery-overlay">
+              <h4>Deviled Eggs</h4>
+            </div>
+          </div>
+        </div>
+
+        <!-- Regular Grid -->
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1552332386-f8dd00dc2f85" alt="Taco Bar" class="gallery-img">
+            <div class="gallery-overlay">
+              <h4>Build-Your-Own Taco Bar</h4>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1550317138-10000687a72b" alt="Slider Station" class="gallery-img">
+            <div class="gallery-overlay">
+              <h4>Gourmet Slider Station</h4>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="images/pic3.jpg" alt="Pasta" class="gallery-img">
+            <div class="gallery-overlay">
+              <h4>Pasta</h4>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="images/pic12.jpg" alt="Spinach Dip Cutlets" class="gallery-img">
+            <div class="gallery-overlay">
+              <h4>Spinach Dip Cutlets</h4>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom Row -->
+        <div class="gallery-row">
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1513456852971-30c0b8199d4d" alt="Nachos Bar" class="gallery-img">
+            <div class="gallery-overlay">
+              <h4>Premium Nacho Bar</h4>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1529193591184-b1d58069ecdd" alt="Pulled Pork Station" class="gallery-img">
+            <div class="gallery-overlay">
+              <h4>Southern Pulled Pork Station</h4>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1615870216519-2f9fa575fa5c" alt="Enchiladas Display" class="gallery-img">
+            <div class="gallery-overlay">
+              <h4>Enchiladas & Mexican Classics</h4>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.unsplash.com/photo-1628294895950-9805252327bc" alt="Dessert Station" class="gallery-img">
+            <div class="gallery-overlay">
+              <h4>Kebabs Platter</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="gallery-cta-container">
+        <a href="contact.html" class="gallery-cta">
+          <span>Plan Your Event</span>
+          <i class="fa fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- end recipe section -->
+
+  <section class="services_section layout_padding">
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2>Our Services</h2>
+      </div>
+      <div class="services_cards">
+        
+        <!-- Weddings -->
+        <div class="service-item">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <div class="service-img-box">
+                <img src="https://images.pexels.com/photos/169198/pexels-photo-169198.jpeg" alt="Wedding Catering Service" class="service-img">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-detail-box">
+                <h3>Weddings</h3>
+                <p>
+                  Carrie Lou's custom menu is suited to fit each bride and groom’s taste buds. Once booked, you can craft your menu with us at a free tasting. Our professionalism and dedication to perfection are unmatched. Whether you choose plated or buffet style, we guarantee to make your event memorable and delicious!
+                </p>
+                <p>
+                  From succulent meat, fish, and vegetarian dishes to sides that please every palate, we ensure that your wedding dining experience leaves a lasting impression.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- General Events -->
+        <div class="service-item">
+          <div class="row flex-row-reverse align-items-center">
+            <div class="col-md-6">
+              <div class="service-img-box">
+                <img src="https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg" alt="Event Catering Service" class="service-img">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-detail-box">
+                <h3>Events of All Kinds</h3>
+                <p>
+                  Birthdays, Quinceañeras, Children's Parties, Sweet Sixteens, Anniversaries, Church Celebrations, Family Reunions, School Events, Production Studios, Office Parties, Warehouse Sites, and more!
+                </p>
+                <p>
+                  We provide full-service catering with professional equipment, flatware, paper goods, and tableware. From setup to breakdown and delivery, our versatile and customizable menu can meet any budget or event requirement. Whether you need a stay-and-serve team or a simple drop-off, we've got you covered.
+                </p>
+                <p><strong>"Large or Small, We Cater It All!"</strong></p>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- All Events are Special -->
+        <div class="service-item">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <div class="service-img-box">
+                <img src="images/pic21.jpg" alt="Special Event Catering" class="service-img">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-detail-box">
+                <h3>All Events are Special to Us</h3>
+                <p>
+                  Your special event deserves our special touch. We aim to alleviate stress, replacing it with trustworthy service and an unforgettable dining experience. Whether it's an intimate date night or a blockbuster corporate event, we handle it all with five-star quality and dedication.
+                </p>
+                <p>
+                  Our event planners, qualified chefs, and catering specialists work together to deliver a level of service that surpasses expectations. Let us handle the details so you can savor every moment.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Non-Profit Organization -->
+        <div class="service-item">
+          <div class="row flex-row-reverse align-items-center">
+            <div class="col-md-6">
+              <div class="service-img-box">
+                <img src="images/piic16.jpg" alt="Non-Profit Organization Service" class="service-img">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="service-detail-box">
+                <h3>Our Heart of it All: F.I.R.S.T.T. Generation</h3>
+                <p>
+                  F.I.R.S.T.T. Generation is our non-profit, dedicated to feeding and inspiring seniors 65+. We provide vital care, love, and support through teamwork. From bill pay assistance and house cleaning to lawn services and fresh homemade meals, we’re committed to helping those who need it most.
+                </p>
+                <p>
+                  During the holidays, we deliver hot meals to homebound seniors, ensuring they never feel forgotten. A percentage of our profits goes toward this noble cause, and we invite you to join our efforts in making a difference in our community.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  
+  <!-- end services section -->
+
+  <!-- app section -->
+
+<!-- F.I.R.S.T.T.Generation Section -->
+<section class="app_section">
+  <div class="container">
+    <div class="col-md-9 mx-auto">
+      <div class="row align-items-center">
+        <div class="col-md-6 col-lg-6">
+          <div class="detail-box">
+            <h2>
+              <span>F.I.R.S.T.T.</span> <br>
+              <strong>Generation</strong>
+            </h2>
+            <p>
+              Feeding-Inspiring-Restoring-Seniors-Through-Teamwork
+            </p>
+            <p>
+              At F.I.R.S.T.T.Generation, our mission is to reduce hunger among seniors in our community by providing healthy, home-cooked meals, fostering social connections between generations, and offering essential services to enhance their well-being.
+            </p>
+            <div class="app_btn_box">
+              <a href="#donate" class="donate_btn">
+                <i class="fa fa-heart" aria-hidden="true"></i> Donate
+              </a>
+            </div>
+           
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-6">
+          <div class="img-box">
+            <img src="images/pic22.png" class="box-img" alt="F.I.R.S.T.T.Generation">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- end app section -->
+
+  <!-- about section -->
+
+<!-- About Us Section -->
+<!-- About Us Section -->
+<section class="about_us_section layout_padding">
+  <div class="container">
+    <div class="heading_container heading_center">
+      <h2>About Us</h2>
+    </div>
+    <div class="about_content">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="img-box">
+            <img src="images/pic8.jpg" class="box-img" alt="About Us Image">
+          </div>
+          <!-- New image added below -->
+          <div class="img-box mt-3">
+            <img src="images/pic15.png" class="box-img" alt="Additional About Us Image">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="detail-box">
+            <h3>Family Story</h3>
+            <p>
+              It's all been and survives because of the Lord and from love...
+            </p>
+            <p>
+              Chef Carrie boasts an illustrious 20-year fine dining experience, serving diners of all backgrounds and palates. With experience as a dietitian, she effortlessly prepares meals of diverse culinary origins. Carrie’s creations, including her famous homemade chili, specialty green beans, spinach dip, and her dynamic carving meat station, regularly receive rave reviews.
+            </p>
+            <p>
+              Her mastery extends beyond the kitchen, and Carrie has also been recognized for her partnership with local churches and community centers to feed and help seniors in the greater Fort Worth Community. Carrie Lou's is what it is today because of a beautiful lady named Carrie Lou Williams, Chef Carrie’s namesake and Great-Grandmother.
+            </p>
+            <blockquote>
+              “Mrs. Carrie Lou Williams was a great inspiration to me. She always took great care of my brother and me so well. We always had three to four square meals a day plus snacks and lots of love. I sat and watched my mother and Great-Grandmother prepare meals from scratch and her famous peach cobbler that everyone loved. Learning and growing up in church and her home, I was bound to be great. The Lord has blessed my hands and given purpose to my gift of cooking. I serve by feeding people and help those unable to prepare a home-cooked meal for themselves. I am truly humbled by God’s blessings towards me.”
+            </blockquote>
+            <p>
+              Carrie has been married to her best friend and love of her life for over 25 years. The couple has five children and eight grandchildren. Carrie Lou's Catering will always be available to serve you: "Large or Small, We Cater It All."
+              Today, Chef Carrie carries forward that same spirit, blending tradition with her own creative flair to craft meals that nourish both body and soul. Her deep commitment to family is mirrored in her work, ensuring that every plate she serves reflects the love and gratitude that shaped her upbringing. Through her faith and culinary talents, Carrie continues to honor her family’s legacy, embracing each opportunity to serve others with kindness and a heartfelt touch.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end About Us Section -->
+
+<!-- end About Us Section -->
+
+
+  <!-- end about section -->
+
+
+
+  <!-- client section -->
+
+  <section class="client_section layout_padding">
+    <div class="container">
+      <div class="col-md-11 col-lg-10 mx-auto">
+        <div class="heading_container heading_center">
+          <h2>
+            Testimonials
+          </h2>
+        </div>
+        <div id="customCarousel1" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <!-- Testimonial 1 -->
+            <div class="carousel-item active">
+              <div class="detail-box">
+             
+                <h4>
+                  Emily R.
+                </h4>
+                <div class="star-rating">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                </div>
+                <p>
+                  "Carrie Lou's Catering made our wedding day absolutely perfect. From the initial consultation, their team was attentive, creative, and incredibly professional. The menu offered a delightful variety of dishes that catered to all our guests' preferences and dietary needs. Each course was not only delicious but also beautifully presented, adding an elegant touch to our reception. The staff was friendly and ensured that everything ran smoothly, allowing us to enjoy our special day without any worries. We've received countless compliments on the food, and we couldn't be happier with the service provided by Carrie Lou's Catering. Highly recommended for any event!"
+                </p>
+                <i class="fa fa-quote-left" aria-hidden="true"></i>
+              </div>
+            </div>
+            <!-- Testimonial 2 -->
+            <div class="carousel-item">
+              <div class="detail-box">
+              
+                <h4>
+                  Michael S.
+                </h4>
+                <div class="star-rating">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                </div>
+                <p>
+                  "Hosting our annual corporate gala with Carrie Lou's Catering was an outstanding experience. Their team worked closely with us to design a customized menu that perfectly matched the theme of our event. The quality of the food was exceptional, with each dish showcasing fresh ingredients and exquisite flavors that impressed all our attendees. Beyond the culinary excellence, the catering staff demonstrated remarkable professionalism and efficiency, seamlessly managing the service and ensuring that everything was perfect from start to finish. Their attention to detail and commitment to excellence truly set them apart. Carrie Lou's Catering played a pivotal role in the success of our event, and we look forward to partnering with them again in the future."
+                </p>
+                <i class="fa fa-quote-left" aria-hidden="true"></i>
+              </div>
+            </div>
+            <!-- Testimonial 3 -->
+            <div class="carousel-item">
+              <div class="detail-box">
+              
+                <h4>
+                  Sophia L.
+                </h4>
+                <div class="star-rating">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                </div>
+                <p>
+                  "Celebrating our 10th anniversary with Carrie Lou's Catering was one of the best decisions we made. Their team went above and beyond to create a memorable dining experience for us and our guests. The appetizers were a hit, featuring an array of flavors that delighted everyone's taste buds. The main courses were cooked to perfection, and the dessert selection was simply divine. What stood out the most was the personalized service; the staff was attentive, courteous, and always ready to accommodate our requests. They handled everything with grace and professionalism, allowing us to fully enjoy our celebration without any stress. Carrie Lou's Catering truly embodies excellence in catering, and we wholeheartedly recommend their services to anyone planning an event."
+                </p>
+                <i class="fa fa-quote-left" aria-hidden="true"></i>
+              </div>
+            </div>
+          </div>
+          <!-- Carousel Controls -->
+          <a class="carousel-control-prev d-none" href="#customCarousel1" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#customCarousel1" role="button" data-slide="next">
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end client section -->
+
+  <div class="footer_container">
+    <!-- info section -->
+    <section class="info_section ">
+      <div class="container">
+        <div class="contact_box">
+          <a href="">
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+          </a>
+          <a href="">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+          </a>
+          <a href="">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+          </a>
+        </div>
+        <div class="info_links">
+          <ul>
+            <li class="active">
+              <a href="index.html">
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="">
+                About
+              </a>
+            </li>
+            <li>
+              <a class="" href="">
+                Blog
+              </a>
+            </li>
+            <li>
+              <a class="" href="">
+                Testimonial
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="social_box">
+          <a href="">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+          </a>
+          <a href="">
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+          </a>
+          <a href="">
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- end info_section -->
+
+
+    <!-- footer section -->
+    <footer class="footer_section">
+      <div class="container">
+        <p>
+          &copy; <span id="displayYear"></span> All Rights Reserved By
+          <a href="https://html.design/">Carrie Lou's Catering</a><br>
+        </p>
+      </div>
+    </footer>
+    <!-- footer section -->
+
+  </div>
+  <!-- jQery -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.js"></script>
+  <!-- slick  slider -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
+  <!-- nice select -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js" integrity="sha256-Zr3vByTlMGQhvMfgkQ5BtWRSKBGa2QlspKYJnkjZTmo=" crossorigin="anonymous"></script>
+  <!-- custom js -->
+  <script src="js/custom.js"></script>
+
+
+</body>
+
+</html>
